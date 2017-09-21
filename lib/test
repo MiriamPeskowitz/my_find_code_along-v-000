@@ -1,0 +1,7 @@
+def do_three_times 
+puts "I'm inside do_three_times" 
+puts "There was a block" if block_given? 
+yield # keyword that yields to the block . 
+end
+
+
